@@ -1,0 +1,20 @@
+.input-container {
+  .input-label {
+    float: left;
+  }
+  .input {
+    color: white;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #968181;
+    background: transparent;
+    width: 98%;
+    line-height: 2.5;
+    font-size: 1em;
+    text-transform: capitalize;
+    &:focus {
+      border-bottom: 1px solid #ffcc54;
+      transition: all 0.2s ease-in-out 0s;
+    }
+  }
+}

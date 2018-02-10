@@ -13,6 +13,10 @@
       }],
       "no-underscore-dangle": 0,
       "import/prefer-default-export": 0,
-      "object-curly-newline": 0
+      "object-curly-newline": 0,
+      "no-plusplus": 0,
+      "no-loop-func": 0,
+      "no-alert": 0,
+      "no-return-assign": 0
   }
 }
